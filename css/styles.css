@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #eee;
+    height: 100vh;
+    width: 100vw;
+    font-family: Roboto, Helvetica, "PingFang TC", 微軟正黑體, "Heiti TC", "LiHei Pro", Arial, sans-serif;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.sudokuBox{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sudokuBox table{
+    display: inline-block;
+}
+
+td.line, tr.line{
+    background-color: rgb(150, 150, 150);
+}
+
+tr.line{
+    height: 3px;
+}
+
+td.ansTd{
+    background-color: #dfdfdf;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.mobile td.ansTd{
+    padding: 3px;
+}
+
+td.ansTd.failed{
+    background-color: #cc0000;
+}
+
+td.ansTd.hint{
+    background-color: #00b300;
+}
+
+td.question-cell{
+    background-color: #cecece;
+    cursor: default;
+}
+
+td.question-cell.failed{
+    background-color: #ff5050;
+}
+
+td.question-cell.hint{
+    background-color: #00b300;
+}
+
+input.submit{
+    background: none;
+    border: none;
+    background-color: #2196f3;
+    padding: 7px 20px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+}
+
+.chooseapic{
+}
+
+.chooseapic > table{
+    background-color: rgb(236, 236, 236);
+    box-shadow: 0 15px 30px rgba(0,0,0,.3);
+    border-radius: 10px;
+}
+
+.chooseapic td{
+    padding: 5px;
+}
+
+.timecounter{
+    padding: 15px 0 0 0;
+    text-align: center;
+}
