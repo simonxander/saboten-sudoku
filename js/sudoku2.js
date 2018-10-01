@@ -1169,8 +1169,8 @@ function checkdone() {
 		var dDiff = dDate.getTime() - gDate.getTime();
 		stopSeconds();
         document.getElementById('complete-box').innerHTML = "恭喜你完成挑戰，共花了 " + seconds + " 秒";
-        document.getElementById('complete-box').style.display = "block";
-        document.getElementById('complete-box-wrapper').style.display = "block";
+        document.getElementById('complete-box').style.display = "inline-block";
+        document.getElementById('complete-box-wrapper').style.display = "flex";
 		// document.wait.src = 'http://www.picturesudoku.com/duntime.php?time=' + dDiff + '&hints=' + hints;
 		// if (window.confirm('Congratulations! You have completed this sudoku! Would you like to see your time, and how it compares with other people?')) {
 			// window.location.href = 'http://picturesudoku.com/myresults.htm?' + dDiff + '?' + hints;
