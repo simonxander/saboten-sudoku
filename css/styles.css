@@ -108,6 +108,7 @@ input.submit{
     -ms-touch-action: none;
     touch-action: none;
     z-index: 5;
+    display: none;
 }
 
 .complete-box{
