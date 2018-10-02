@@ -1058,7 +1058,6 @@ function printgrid() {
 		document.getElementsByTagName("BODY")[0].setAttribute('onclick', 'document.getElementById(\"chooseapic\").style.visibility = \"hidden\"');
 	}
 	var waitimg = 'wait'
-	document.wait.height = '1';
 	document.write('<div class="chooseapic" name="chooseapic" id="chooseapic" style="position:absolute; top:-30px; left:-30px; z-index:3;">&nbsp;</div>')
 	document.write("<div class='sudokuBox' style='position:relative; z-index:1;'><table name='mainTable' id='mainTable' cellspacing=1 cellpadding=1>");
 	colspan = side + sroot - 1;
